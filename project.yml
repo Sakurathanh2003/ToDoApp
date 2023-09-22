@@ -1,0 +1,18 @@
+---
+name: ToDoApp
+options:
+  postGenCommand: pod install
+targets:
+  ToDoApp:
+    deploymentTarget: '14.0'
+    platform: iOS
+    settings:
+      base:
+        CODE_SIGN_IDENTITY: iPhone Developer
+        PRODUCT_BUNDLE_IDENTIFIER: com.meimei.ToDoApp
+        PRODUCT_NAME: ToDoApp
+        SWIFT_VERSION: 5
+        CODE_SIGN_STYLE: Automatic
+    sources:
+      - path: ToDoApp
+    type: application
