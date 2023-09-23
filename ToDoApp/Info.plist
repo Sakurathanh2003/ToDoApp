@@ -2,24 +2,70 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIApplicationSceneManifest</key>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>NSAppTransportSecurity</key>
 	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
-		<key>UISceneConfigurations</key>
-		<dict>
-			<key>UIWindowSceneSessionRoleApplication</key>
-			<array>
-				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
-				</dict>
-			</array>
-		</dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
 	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Application want to open your apple music</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Application want to use your Camera</string>
+	<key>NSFileProviderDomainUsageDescription</key>
+	<string>Application want to open your file</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Application want to use your Microphone</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Application want to edit image in your library</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Application want to edit image in your library</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Application want to speech permission</string>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>IntentIntent</string>
+	</array>
+	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Nunito-Bold.ttf</string>
+		<string>UTM Aurora.ttf</string>
+		<string>Sriracha.ttf</string>
+		<string>NT Wagner.otf</string>
+		<string>Rubik-Regular.ttf</string>
+		<string>AkayaTelivigala-Regular.ttf</string>
+		<string>AtomicAge-Regular.ttf</string>
+		<string>Pacifico-Regular.ttf</string>
+		<string>Caramel-Regular.ttf</string>
+		<string>Cute Stitch.ttf</string>
+		<string>Magical Holiday.ttf</string>
+		<string>Quick Love.ttf</string>
+		<string>Pattaya-Regular.ttf</string>
+		<string>WickedMouse.otf</string>
+		<string>MochiyPopPOne-Regular.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDarkContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+	<key>kTCCServiceMediaLibrary</key>
+	<string>Application want to open your media library</string>
 </dict>
 </plist>

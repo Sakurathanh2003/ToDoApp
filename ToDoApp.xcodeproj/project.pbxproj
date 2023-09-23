@@ -3,45 +3,258 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05C6516D15B2719115E7E2B9 /* CMTimeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D79CEBE0DEC3B6F8EFD0D /* CMTimeExtensions.swift */; };
 		06C453391DBB7618F3BE597A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B5AA364ED7017CDF9F4485 /* SceneDelegate.swift */; };
+		07BA794BE78C6D9DECCE5DA7 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CFEB59258504785EF74FCC3 /* UIViewControllerExtensions.swift */; };
+		092BBBB58E276D9917FCBDCC /* AVAudioPlayerNodeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C635CDB9598CF575283C8F4C /* AVAudioPlayerNodeExtensions.swift */; };
+		098626E2AA9A4E064E994287 /* CalendarPickerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70285ED5242BE2E26FDD85B6 /* CalendarPickerHeaderView.swift */; };
+		09E438A5CD6386A6C5AA927B /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62C0409EBC2D09734375C0B /* DictionaryExtension.swift */; };
+		0D22826C2684795B298E676F /* SelectMoneyMonthCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5FB3D3E6F534BB69D7AC2F /* SelectMoneyMonthCell.swift */; };
+		102570821E24C40473ED8B84 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76129F4F57C5D73AC6AB07D8 /* Coordinator.swift */; };
+		16CDA38DE165DF6AC9E94822 /* MonitorNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE3A5A3869C032952540B4C /* MonitorNetwork.swift */; };
+		16D2F2C5432FDD9C5FDC4261 /* TapableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977E8A78D0AB77A453736C7A /* TapableView.swift */; };
+		1C8401FEDB5D446DB45FB5E0 /* CGAffineTransformExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537D810CC1D175E60EA86170 /* CGAffineTransformExtension.swift */; };
+		1D514FF2B10BA4511326E493 /* CrashlyticsLogEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A08AA9F5561B28C639AA275 /* CrashlyticsLogEngine.swift */; };
+		1DE20253C2D5DC263A645AA9 /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B7184A0B7E1EBE3C7F74FF /* CGFloatExtensions.swift */; };
+		1DF597670C42768A7A8A0004 /* TwoStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E148EC4998D5B22108349F32 /* TwoStateButton.swift */; };
 		1F9EDC98A3708C019E9B01CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6FCD01E8571A51224257AA /* AppDelegate.swift */; };
-		32700539FFB2CF9BDB8AD6E5 /* Pods_ToDoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A415F2F1BB6E1FC9B3DFFD /* Pods_ToDoApp.framework */; };
+		25A264120055D17B963E2F6A /* PHAssetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E507658A6686E980D71F0FA3 /* PHAssetExtension.swift */; };
+		2C51F3C376D7B3E7C6389D61 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C021908A59AC56CB114231 /* RoundedTextField.swift */; };
+		2D9DBFD8C17FC486F1A75672 /* AVAssetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6CDE703CD4F141E3CD2C7C /* AVAssetExtension.swift */; };
+		2E675CB057255893B5AEC33E /* PermissionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41054CFC2EE7F845085C3C3 /* PermissionHelper.swift */; };
+		30AE5A3F9C5A6B37B88F06A5 /* SelectMoneyMonthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB30C59551A7CC9F91C88A1 /* SelectMoneyMonthCell.xib */; };
+		35B9CC3EBDDEA053F65EAEDD /* PhotoGalleryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EE2712688343299FB4E109 /* PhotoGalleryManager.swift */; };
+		3CBDA4216F5EF4C1B60D82D3 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B87EF33489F5063DC4ED7E /* DateExtensions.swift */; };
+		3CEFDA28DAD4EB60ADE66560 /* URLRequestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBB7E59DF5E875ACF345E1 /* URLRequestExtensions.swift */; };
+		417246C2AA4CF771BB03BDC9 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848BDC37D76815AB668577F2 /* BlurView.swift */; };
+		41BBE51CF86299B292182E06 /* EmbededCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFEB3C52CFF730D3536979C5 /* EmbededCoordinator.swift */; };
+		4689D22417334AB03C37E5D2 /* CollectionViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169D32A6CFE16DC15E873606 /* CollectionViewExtensions.swift */; };
+		51F492CA1D1C642521D84D2E /* FloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6057EDF992279DD52BD7ADD2 /* FloatExtensions.swift */; };
+		53774B64B8A4ED6A89535E06 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B398482516829AD2CDDCD3E7 /* BaseNavigationController.swift */; };
+		540B130A256A23300AEF1383 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78403EA044D8D3E7A9F144CF /* UIImageExtensions.swift */; };
+		5516D96D81CFD992F9F3938B /* ScrollLeftAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A180890891A1460E7415E9 /* ScrollLeftAnimation.swift */; };
+		58C689205A45EE6C35CA22B2 /* ScrollBottomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D2D738647927A7D83E00E /* ScrollBottomAnimation.swift */; };
+		594D4FA5DCD89261DE419D3E /* PlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17747A6C0D7F7949B775990 /* PlayerManager.swift */; };
+		5A17CF7C34085E5E8DB01F7A /* OverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479FDA07633B97EE29D1623A /* OverlayWindow.swift */; };
+		5C048FFA7E6ED85984E14817 /* PreviewCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F473F743E3D11A2866E96E3 /* PreviewCameraView.swift */; };
+		5DD2B1C4748B0F93AF68B509 /* TwoStateImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08782EAE499BC5F48FB19ACB /* TwoStateImageView.swift */; };
+		5E5AE0E35EE20E0A901046AD /* Switch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E8C79F1B03035EAD4AA347 /* Switch.swift */; };
+		60B0191459E8F83E1A964267 /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281638612A3AC3FD19A8AEA7 /* UIApplicationExtensions.swift */; };
+		62EA75E6E08A597B34DC7D11 /* AVAudioFileExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951FACBF0182BC417F8E1869 /* AVAudioFileExtensions.swift */; };
+		672F166F102E710CC583F36B /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD9367A4C4A12A62FE47A7F /* AudioPlayerManager.swift */; };
+		6935C9ED68B5EFE2A4EB9484 /* TableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4117E55BEBD96377E71A73D4 /* TableViewExtensions.swift */; };
+		6A9742812CE37D81D25F89B4 /* DashedLineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7A795E092C7CD370B6226 /* DashedLineButton.swift */; };
 		6CA8B027DE615CD9181CC58E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B85E313D28C29ECA826702 /* ViewController.swift */; };
+		6CF1C79AF1355D99CB075088 /* RealmDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4602B32CEA2082436D1DA341 /* RealmDao.swift */; };
+		6D0DD5960328AEEFD5BB7FA8 /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB5401B6D5171B77F7CB8F /* CGRectExtensions.swift */; };
+		6D1CC06003BD57DA8C83435A /* MonthMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D691665AF8041BFD95D52FC /* MonthMetadata.swift */; };
+		6DDFD6DF9970AAEB3279BF80 /* CalendarPickerFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E34D20B7D8A78BCF8034FA7 /* CalendarPickerFooterView.swift */; };
+		6FDA1E616DA8C7EC4632A81C /* SelectMoneyMonthDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C8C96E5C8892D8BFD2A3D6 /* SelectMoneyMonthDialog.xib */; };
 		72D0D39AA4C6B83EAD4F20A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888526FD9C99D628D33D6462 /* Assets.xcassets */; };
+		73F3AFB844B55A55020E93AC /* AlbumHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AA267EFC63DC3C888FF6E3 /* AlbumHelper.swift */; };
+		863DDD5A25A1405C5F0C73B8 /* CLPlacemarkExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E207213C0F982361BC452219 /* CLPlacemarkExtensions.swift */; };
+		86666A003027CB40573ED89D /* EmptiableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25326A3823FF4BB25E3C7A9 /* EmptiableViewModel.swift */; };
+		8A298DEE17FACD3FADBEB883 /* String+Mime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE0BE15D19F2F7D2A247DEC /* String+Mime.swift */; };
+		8B0728BAF935EC23925D2A0F /* BezierPathExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB616A5D3E076F548C97B319 /* BezierPathExtensions.swift */; };
+		90F76E10117375480D6251A6 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D058304D1203D982CC5DE0 /* WeatherManager.swift */; };
+		952B0A9008F664636D342344 /* NotificationBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0E5A1B8B87E3BC159BA092 /* NotificationBannerView.swift */; };
+		98C8CAC0820A074448AE1780 /* AVPlayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396E5B7E5BA7AA6A0F41455 /* AVPlayerExtensions.swift */; };
+		98FBB3F703276707C6C72D33 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721A563C47BB5BDE02531854 /* ArrayExtensions.swift */; };
+		9909964CC21B50CAC08A8BB8 /* TextViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697F6324A37E9D52E1571F9 /* TextViewExtension.swift */; };
+		995594D92DB2025F9765D459 /* DeleteDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = F88161B0CC8F9DDE3EB67239 /* DeleteDialog.xib */; };
+		99942A2238935CD2E798EB8B /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5554ECF68A1DD9427AEF12B4 /* StringExtensions.swift */; };
+		9FE34BA25FBA6A33F56D2BBD /* AVAudioSessionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB24CA45937EE825A4CDE66 /* AVAudioSessionExtensions.swift */; };
+		A0894AFA5E126B77D9B7E35C /* CGAffineTransformExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825615F80CB7FC0EBF4172A2 /* CGAffineTransformExtensions.swift */; };
+		A25A91A2A500355D83A71AE4 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50A477A13F014AA33FC3971 /* Day.swift */; };
+		A389E2029157B09474DB8E58 /* SelectMoneyMonthDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2076B95E2D44BC9DBC3C617 /* SelectMoneyMonthDialog.swift */; };
+		A6436706BD4A55494E1A70F9 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C13C717C2BC09FDD83978E0 /* URLExtensions.swift */; };
+		A6624857969FF23A64A1B6EC /* CGSizeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3256605313A56B028043E400 /* CGSizeExtensions.swift */; };
+		AA578EB1497006DB00B1A892 /* Pods_ToDoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D27BA4D39BC2972E17B2F0 /* Pods_ToDoApp.framework */; };
+		AC9DC221CDCD130CD0282D52 /* TimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59A81137819973F7982F236 /* TimeIntervalExtensions.swift */; };
+		AF83EAF45A18984C297D7155 /* ExtensibleTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CDCDADFFB8F6452B074EE2 /* ExtensibleTouchView.swift */; };
+		B094124A6406BF3C6436FD7A /* CalenderPickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829A0E99D0195145B782E4B8 /* CalenderPickerDialog.swift */; };
+		B170718008482E47CA746111 /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A84878E0D38A0CC30ABA1F7 /* BundleExtensions.swift */; };
+		B4E1DD427E48DF23B90DBEBB /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE829A0B9A066AEB43589809 /* ColorExtensions.swift */; };
+		B554B2E68D364772FF97651E /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F789D4169A6C63EFB8ACE8F0 /* FileManagerExtensions.swift */; };
+		B6AD00E44CA4F55FC3C57794 /* DeleteDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19A2D77A68A95DE0902A5F3 /* DeleteDialog.swift */; };
+		B72DB59F63AF0A2B7BEA50F1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD26026A17A62BB4CB8B9A52 /* BaseViewController.swift */; };
+		B8861B94E1A42F515D2B1A16 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B63A4E66DD4570A1CB02AE /* Validator.swift */; };
+		B8AC0FE84D526083B9AF602F /* HightlightableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDB673757FC6E5359A1BAA0 /* HightlightableButton.swift */; };
+		BA0275BC0BC7984F85217FFE /* CalendarExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1CBAEC8AE6B5791EAB9CFD /* CalendarExtensions.swift */; };
+		C165501DA4DA9022BF611B17 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B28076CB3D4D949447C885E /* AppManager.swift */; };
+		C36D0D215D9CB5DC88E2FE68 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A32BCBE5DA5F8C1FA158CB0 /* NotificationName.swift */; };
+		C58C5B1D8F69F04831CC3F6A /* LazyLoadingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359CE70CE4956470F2460A8B /* LazyLoadingImage.swift */; };
+		C8871893533980E6E0372E18 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E01C3A844E6F3DC76E72FF /* BaseViewModel.swift */; };
+		C8937931C96ABA342F98676E /* VideoPlaySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D82F551BFE9B5E089C3C690 /* VideoPlaySession.swift */; };
+		CEF380E7929E809E3EC3C5F6 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25153F1F8F7566EFA5B9A097 /* UIViewExtensions.swift */; };
+		CF1B95A7BDDDDE63E3BDF241 /* SequenceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCF491C804692AB3D2E32D1 /* SequenceExtensions.swift */; };
+		D04C9941B3BDDC4B78C44D59 /* SLSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69A65A2430A0BBF18BE11B5 /* SLSwitch.swift */; };
+		D0E3E0D4AE866C8C8E246F8C /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE458BECFD21367AA3B91 /* RealmManager.swift */; };
+		D2F65A5E566489CD49320F5E /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801A715FBE9782FF84C9EDF7 /* PlayerView.swift */; };
+		D610154DD00A839D57F8553D /* UserDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B2924BB34DAED1FAAC66D /* UserDataRepository.swift */; };
+		D6FF153BD2282F69B7AC840D /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B6570172838E6863E82BBE /* TriangleView.swift */; };
+		D955CBE6A099BA08BF540AD5 /* UserDefaultExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DAB1929BF34DEE3685CC03 /* UserDefaultExtensions.swift */; };
+		DA960098935C0717C609EB7B /* CalendarDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED72D38A869B600992EA0BB5 /* CalendarDateCollectionViewCell.swift */; };
+		DF81D4B6EEF2DCBA50C189AF /* CGPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEA31504E9B45833225C1F8 /* CGPointExtensions.swift */; };
+		E20F07354F714CFA8670DE7E /* AnimationableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84895B8D1AE740BBE55EB09C /* AnimationableButton.swift */; };
 		E2A637A2392FFE409A9DEB41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D5AB5AA2DC053D08B38479 /* LaunchScreen.storyboard */; };
+		E43CAA1C740EE9FC43E3D4E8 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC89E57B05ADEABF8DDF8F /* IntExtensions.swift */; };
+		E7E997FDE9CE6C89AE020B7B /* SkippableInteractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C111C34C7B371BF18B297 /* SkippableInteractionView.swift */; };
+		EA33359DC7A483967770D662 /* ExtendedInteractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D253EBCF854EE3DE7579C1CE /* ExtendedInteractionView.swift */; };
+		EEE007FF2A071470BAC8F059 /* AVMutableCompositionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDE657115701661548D9AA6 /* AVMutableCompositionExtensions.swift */; };
+		EF33AB744AC77498F5B435B0 /* NavigationBasedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6DC76606F4F8A76330999F /* NavigationBasedCoordinator.swift */; };
+		F06CC1D54EFBA03FFED6DBFD /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E434E0BC1CC6A6E3223A9 /* NotificationManager.swift */; };
+		F2C004D8E4985F64495E0AC0 /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD7C3E939A628150742FE19 /* DoubleExtensions.swift */; };
+		F5B475883225404674A8557C /* PhotoLibraryObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E2968DF039DC61F0AFDD34 /* PhotoLibraryObserver.swift */; };
+		F7322305CFF9EAF636F5F8C5 /* DeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CE94A6648BE8772B7A631F /* DeviceExtensions.swift */; };
+		F7DF245A05FA05497D148E76 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBFC1834C34941875FAA7EA /* UIImageViewExtensions.swift */; };
+		FBB9A31BDC132FE4154E3544 /* CIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC923AC146482681403169ED /* CIImageExtensions.swift */; };
 		FC2766D62955762807EA547C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F6F9FF4B6863693FE0DCE04 /* Main.storyboard */; };
+		FC50E292A4771D8EB3EF53C0 /* FontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149A855443943C19A96D5F6 /* FontExtensions.swift */; };
+		FE1903D7B99B74799370D656 /* PresentedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74096A5246EDBE88FD6D7A54 /* PresentedCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D0A43346D26D1C62250EFA2 /* Pods-ToDoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoApp.debug.xcconfig"; path = "Target Support Files/Pods-ToDoApp/Pods-ToDoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		00BAE458BECFD21367AA3B91 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		055E434E0BC1CC6A6E3223A9 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		08782EAE499BC5F48FB19ACB /* TwoStateImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStateImageView.swift; sourceTree = "<group>"; };
+		08AA267EFC63DC3C888FF6E3 /* AlbumHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumHelper.swift; sourceTree = "<group>"; };
+		08EBA498C422D82D0B103D57 /* Pods-ToDoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoApp.debug.xcconfig"; path = "Target Support Files/Pods-ToDoApp/Pods-ToDoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0CFEB59258504785EF74FCC3 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		15C9BA086DF337B5A95616B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		22A415F2F1BB6E1FC9B3DFFD /* Pods_ToDoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		169D32A6CFE16DC15E873606 /* CollectionViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExtensions.swift; sourceTree = "<group>"; };
+		1BDC89E57B05ADEABF8DDF8F /* IntExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		1D82F551BFE9B5E089C3C690 /* VideoPlaySession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlaySession.swift; sourceTree = "<group>"; };
+		25153F1F8F7566EFA5B9A097 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		2697F6324A37E9D52E1571F9 /* TextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewExtension.swift; sourceTree = "<group>"; };
+		281638612A3AC3FD19A8AEA7 /* UIApplicationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtensions.swift; sourceTree = "<group>"; };
+		2A08AA9F5561B28C639AA275 /* CrashlyticsLogEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashlyticsLogEngine.swift; sourceTree = "<group>"; };
+		2AD7C3E939A628150742FE19 /* DoubleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtensions.swift; sourceTree = "<group>"; };
+		2EBFC1834C34941875FAA7EA /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		30B7184A0B7E1EBE3C7F74FF /* CGFloatExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatExtensions.swift; sourceTree = "<group>"; };
 		317451B1B109F75D0984C702 /* ToDoApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3256605313A56B028043E400 /* CGSizeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGSizeExtensions.swift; sourceTree = "<group>"; };
+		32C8C96E5C8892D8BFD2A3D6 /* SelectMoneyMonthDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectMoneyMonthDialog.xib; sourceTree = "<group>"; };
+		359CE70CE4956470F2460A8B /* LazyLoadingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadingImage.swift; sourceTree = "<group>"; };
+		36DAB1929BF34DEE3685CC03 /* UserDefaultExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultExtensions.swift; sourceTree = "<group>"; };
+		39B87EF33489F5063DC4ED7E /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		3DFBB7E59DF5E875ACF345E1 /* URLRequestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestExtensions.swift; sourceTree = "<group>"; };
+		3FB30C59551A7CC9F91C88A1 /* SelectMoneyMonthCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectMoneyMonthCell.xib; sourceTree = "<group>"; };
+		402B2924BB34DAED1FAAC66D /* UserDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataRepository.swift; sourceTree = "<group>"; };
+		4117E55BEBD96377E71A73D4 /* TableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtensions.swift; sourceTree = "<group>"; };
+		4602B32CEA2082436D1DA341 /* RealmDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDao.swift; sourceTree = "<group>"; };
+		479FDA07633B97EE29D1623A /* OverlayWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayWindow.swift; sourceTree = "<group>"; };
 		47B5AA364ED7017CDF9F4485 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		48E01C3A844E6F3DC76E72FF /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		49B6570172838E6863E82BBE /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		4FD9367A4C4A12A62FE47A7F /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
+		51B63A4E66DD4570A1CB02AE /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		537D810CC1D175E60EA86170 /* CGAffineTransformExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransformExtension.swift; sourceTree = "<group>"; };
+		5554ECF68A1DD9427AEF12B4 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		55E2968DF039DC61F0AFDD34 /* PhotoLibraryObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryObserver.swift; sourceTree = "<group>"; };
+		5A32BCBE5DA5F8C1FA158CB0 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		5FB24CA45937EE825A4CDE66 /* AVAudioSessionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioSessionExtensions.swift; sourceTree = "<group>"; };
+		6057EDF992279DD52BD7ADD2 /* FloatExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtensions.swift; sourceTree = "<group>"; };
+		6149A855443943C19A96D5F6 /* FontExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtensions.swift; sourceTree = "<group>"; };
+		70285ED5242BE2E26FDD85B6 /* CalendarPickerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPickerHeaderView.swift; sourceTree = "<group>"; };
+		721A563C47BB5BDE02531854 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		74096A5246EDBE88FD6D7A54 /* PresentedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentedCoordinator.swift; sourceTree = "<group>"; };
+		75E238EE30A4A9F432AC4A02 /* Pods-ToDoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoApp.release.xcconfig"; path = "Target Support Files/Pods-ToDoApp/Pods-ToDoApp.release.xcconfig"; sourceTree = "<group>"; };
+		76129F4F57C5D73AC6AB07D8 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		78403EA044D8D3E7A9F144CF /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		7EE3A5A3869C032952540B4C /* MonitorNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorNetwork.swift; sourceTree = "<group>"; };
+		7F473F743E3D11A2866E96E3 /* PreviewCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCameraView.swift; sourceTree = "<group>"; };
+		7F6DC76606F4F8A76330999F /* NavigationBasedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasedCoordinator.swift; sourceTree = "<group>"; };
+		801A715FBE9782FF84C9EDF7 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		825615F80CB7FC0EBF4172A2 /* CGAffineTransformExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransformExtensions.swift; sourceTree = "<group>"; };
+		829A0E99D0195145B782E4B8 /* CalenderPickerDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderPickerDialog.swift; sourceTree = "<group>"; };
+		83CE94A6648BE8772B7A631F /* DeviceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceExtensions.swift; sourceTree = "<group>"; };
+		84895B8D1AE740BBE55EB09C /* AnimationableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationableButton.swift; sourceTree = "<group>"; };
+		848BDC37D76815AB668577F2 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		888526FD9C99D628D33D6462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A84878E0D38A0CC30ABA1F7 /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		8D691665AF8041BFD95D52FC /* MonthMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthMetadata.swift; sourceTree = "<group>"; };
+		906D79CEBE0DEC3B6F8EFD0D /* CMTimeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMTimeExtensions.swift; sourceTree = "<group>"; };
+		9396E5B7E5BA7AA6A0F41455 /* AVPlayerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayerExtensions.swift; sourceTree = "<group>"; };
+		93CDCDADFFB8F6452B074EE2 /* ExtensibleTouchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensibleTouchView.swift; sourceTree = "<group>"; };
+		951FACBF0182BC417F8E1869 /* AVAudioFileExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioFileExtensions.swift; sourceTree = "<group>"; };
+		95C021908A59AC56CB114231 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		977E8A78D0AB77A453736C7A /* TapableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapableView.swift; sourceTree = "<group>"; };
+		9B28076CB3D4D949447C885E /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		9C13C717C2BC09FDD83978E0 /* URLExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
+		9CDE657115701661548D9AA6 /* AVMutableCompositionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVMutableCompositionExtensions.swift; sourceTree = "<group>"; };
+		9DE0BE15D19F2F7D2A247DEC /* String+Mime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Mime.swift"; sourceTree = "<group>"; };
+		9E34D20B7D8A78BCF8034FA7 /* CalendarPickerFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarPickerFooterView.swift; sourceTree = "<group>"; };
+		A3D7A795E092C7CD370B6226 /* DashedLineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedLineButton.swift; sourceTree = "<group>"; };
+		AB5FB3D3E6F534BB69D7AC2F /* SelectMoneyMonthCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMoneyMonthCell.swift; sourceTree = "<group>"; };
 		AB6FCD01E8571A51224257AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B84CA1F3460A29B916E23F4E /* Pods-ToDoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoApp.release.xcconfig"; path = "Target Support Files/Pods-ToDoApp/Pods-ToDoApp.release.xcconfig"; sourceTree = "<group>"; };
+		ADDB673757FC6E5359A1BAA0 /* HightlightableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HightlightableButton.swift; sourceTree = "<group>"; };
+		B25326A3823FF4BB25E3C7A9 /* EmptiableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptiableViewModel.swift; sourceTree = "<group>"; };
+		B36C111C34C7B371BF18B297 /* SkippableInteractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkippableInteractionView.swift; sourceTree = "<group>"; };
+		B398482516829AD2CDDCD3E7 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		B5D058304D1203D982CC5DE0 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		B6EE2712688343299FB4E109 /* PhotoGalleryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryManager.swift; sourceTree = "<group>"; };
+		B7A180890891A1460E7415E9 /* ScrollLeftAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLeftAnimation.swift; sourceTree = "<group>"; };
+		BB6CDE703CD4F141E3CD2C7C /* AVAssetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAssetExtension.swift; sourceTree = "<group>"; };
+		BD1CBAEC8AE6B5791EAB9CFD /* CalendarExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarExtensions.swift; sourceTree = "<group>"; };
+		BE829A0B9A066AEB43589809 /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		C19A2D77A68A95DE0902A5F3 /* DeleteDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDialog.swift; sourceTree = "<group>"; };
+		C1D27BA4D39BC2972E17B2F0 /* Pods_ToDoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50A477A13F014AA33FC3971 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		C62C0409EBC2D09734375C0B /* DictionaryExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
+		C635CDB9598CF575283C8F4C /* AVAudioPlayerNodeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVAudioPlayerNodeExtensions.swift; sourceTree = "<group>"; };
+		CB616A5D3E076F548C97B319 /* BezierPathExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BezierPathExtensions.swift; sourceTree = "<group>"; };
+		CD26026A17A62BB4CB8B9A52 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CDCB5401B6D5171B77F7CB8F /* CGRectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGRectExtensions.swift; sourceTree = "<group>"; };
+		D253EBCF854EE3DE7579C1CE /* ExtendedInteractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedInteractionView.swift; sourceTree = "<group>"; };
+		D41054CFC2EE7F845085C3C3 /* PermissionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionHelper.swift; sourceTree = "<group>"; };
+		D59A81137819973F7982F236 /* TimeIntervalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtensions.swift; sourceTree = "<group>"; };
 		D921C32DE9200EAB42531E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9E8C79F1B03035EAD4AA347 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		DDEA31504E9B45833225C1F8 /* CGPointExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExtensions.swift; sourceTree = "<group>"; };
+		DF0E5A1B8B87E3BC159BA092 /* NotificationBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBannerView.swift; sourceTree = "<group>"; };
 		E0B85E313D28C29ECA826702 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E148EC4998D5B22108349F32 /* TwoStateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoStateButton.swift; sourceTree = "<group>"; };
+		E207213C0F982361BC452219 /* CLPlacemarkExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLPlacemarkExtensions.swift; sourceTree = "<group>"; };
+		E507658A6686E980D71F0FA3 /* PHAssetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHAssetExtension.swift; sourceTree = "<group>"; };
+		E81D2D738647927A7D83E00E /* ScrollBottomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollBottomAnimation.swift; sourceTree = "<group>"; };
+		EC923AC146482681403169ED /* CIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CIImageExtensions.swift; sourceTree = "<group>"; };
+		ED72D38A869B600992EA0BB5 /* CalendarDateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDateCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFEB3C52CFF730D3536979C5 /* EmbededCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbededCoordinator.swift; sourceTree = "<group>"; };
+		F17747A6C0D7F7949B775990 /* PlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerManager.swift; sourceTree = "<group>"; };
+		F2076B95E2D44BC9DBC3C617 /* SelectMoneyMonthDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMoneyMonthDialog.swift; sourceTree = "<group>"; };
+		F69A65A2430A0BBF18BE11B5 /* SLSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLSwitch.swift; sourceTree = "<group>"; };
+		F789D4169A6C63EFB8ACE8F0 /* FileManagerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtensions.swift; sourceTree = "<group>"; };
+		F88161B0CC8F9DDE3EB67239 /* DeleteDialog.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteDialog.xib; sourceTree = "<group>"; };
 		F9BC00F1E049EDA9DEB4EE0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBCF491C804692AB3D2E32D1 /* SequenceExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C2907E2F5DD0B6CAC63A7AC1 /* Frameworks */ = {
+		6777A1BC660E3AA8B9BAF237 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32700539FFB2CF9BDB8AD6E5 /* Pods_ToDoApp.framework in Frameworks */,
+				AA578EB1497006DB00B1A892 /* Pods_ToDoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F7A70913E796DAF75022C66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C50A477A13F014AA33FC3971 /* Day.swift */,
+				8D691665AF8041BFD95D52FC /* MonthMetadata.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		21C0CBCA88A9F9AFBB7B813E /* ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,26 +265,114 @@
 				6F6F9FF4B6863693FE0DCE04 /* Main.storyboard */,
 				47B5AA364ED7017CDF9F4485 /* SceneDelegate.swift */,
 				E0B85E313D28C29ECA826702 /* ViewController.swift */,
+				625A8B38F9E41F3E670BD667 /* Base */,
+				B78E045A7B4BF1F27B33A7C6 /* Common */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
 		};
-		62A214B298E9C98AC57724E1 /* Pods */ = {
+		4A2A7E92E58240EEC68CF9D8 /* Dialog */ = {
 			isa = PBXGroup;
 			children = (
-				0D0A43346D26D1C62250EFA2 /* Pods-ToDoApp.debug.xcconfig */,
-				B84CA1F3460A29B916E23F4E /* Pods-ToDoApp.release.xcconfig */,
+				CAE2CBC920A55311061C8CD5 /* CalenderPickerDialog */,
+				879D0D95D5E58A42C9D6CFB9 /* Delete */,
+				700022E49026F80AB243A486 /* SelectMoneyMonthDialog */,
 			);
-			name = Pods;
-			path = Pods;
+			path = Dialog;
 			sourceTree = "<group>";
 		};
-		857F3BCE86F4C404B0D2F0AF /* Frameworks */ = {
+		4A2DF4C01E9909F9378DDE33 /* LazyLoadingImage */ = {
 			isa = PBXGroup;
 			children = (
-				22A415F2F1BB6E1FC9B3DFFD /* Pods_ToDoApp.framework */,
+				359CE70CE4956470F2460A8B /* LazyLoadingImage.swift */,
+			);
+			path = LazyLoadingImage;
+			sourceTree = "<group>";
+		};
+		5E4A1F54177A2C26EBD1FDA7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9B28076CB3D4D949447C885E /* AppManager.swift */,
+				4FD9367A4C4A12A62FE47A7F /* AudioPlayerManager.swift */,
+				7EE3A5A3869C032952540B4C /* MonitorNetwork.swift */,
+				B6EE2712688343299FB4E109 /* PhotoGalleryManager.swift */,
+				55E2968DF039DC61F0AFDD34 /* PhotoLibraryObserver.swift */,
+				F17747A6C0D7F7949B775990 /* PlayerManager.swift */,
+				402B2924BB34DAED1FAAC66D /* UserDataRepository.swift */,
+				B5D058304D1203D982CC5DE0 /* WeatherManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5F6C085677B0ABB7697723B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1D27BA4D39BC2972E17B2F0 /* Pods_ToDoApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5FCAB9B544F43F4BAF093E0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A3D7A795E092C7CD370B6226 /* DashedLineButton.swift */,
+				D253EBCF854EE3DE7579C1CE /* ExtendedInteractionView.swift */,
+				93CDCDADFFB8F6452B074EE2 /* ExtensibleTouchView.swift */,
+				ADDB673757FC6E5359A1BAA0 /* HightlightableButton.swift */,
+				479FDA07633B97EE29D1623A /* OverlayWindow.swift */,
+				801A715FBE9782FF84C9EDF7 /* PlayerView.swift */,
+				95C021908A59AC56CB114231 /* RoundedTextField.swift */,
+				B36C111C34C7B371BF18B297 /* SkippableInteractionView.swift */,
+				F69A65A2430A0BBF18BE11B5 /* SLSwitch.swift */,
+				D9E8C79F1B03035EAD4AA347 /* Switch.swift */,
+				977E8A78D0AB77A453736C7A /* TapableView.swift */,
+				49B6570172838E6863E82BBE /* TriangleView.swift */,
+				E148EC4998D5B22108349F32 /* TwoStateButton.swift */,
+				08782EAE499BC5F48FB19ACB /* TwoStateImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		625A8B38F9E41F3E670BD667 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B398482516829AD2CDDCD3E7 /* BaseNavigationController.swift */,
+				CD26026A17A62BB4CB8B9A52 /* BaseViewController.swift */,
+				48E01C3A844E6F3DC76E72FF /* BaseViewModel.swift */,
+				76129F4F57C5D73AC6AB07D8 /* Coordinator.swift */,
+				EFEB3C52CFF730D3536979C5 /* EmbededCoordinator.swift */,
+				7F6DC76606F4F8A76330999F /* NavigationBasedCoordinator.swift */,
+				74096A5246EDBE88FD6D7A54 /* PresentedCoordinator.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6DF43082E8820FC0D362C49A /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				2A08AA9F5561B28C639AA275 /* CrashlyticsLogEngine.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		6EF61919805EB843BFFF673F /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				4602B32CEA2082436D1DA341 /* RealmDao.swift */,
+				00BAE458BECFD21367AA3B91 /* RealmManager.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		700022E49026F80AB243A486 /* SelectMoneyMonthDialog */ = {
+			isa = PBXGroup;
+			children = (
+				AB5FB3D3E6F534BB69D7AC2F /* SelectMoneyMonthCell.swift */,
+				3FB30C59551A7CC9F91C88A1 /* SelectMoneyMonthCell.xib */,
+				F2076B95E2D44BC9DBC3C617 /* SelectMoneyMonthDialog.swift */,
+				32C8C96E5C8892D8BFD2A3D6 /* SelectMoneyMonthDialog.xib */,
+			);
+			path = SelectMoneyMonthDialog;
 			sourceTree = "<group>";
 		};
 		86536041823BD8341D2F98EE = {
@@ -79,9 +380,27 @@
 			children = (
 				21C0CBCA88A9F9AFBB7B813E /* ToDoApp */,
 				A3BE8DBA8C4431A9592E8745 /* Products */,
-				62A214B298E9C98AC57724E1 /* Pods */,
-				857F3BCE86F4C404B0D2F0AF /* Frameworks */,
+				8CBEBD73F3372A1C56243CA4 /* Pods */,
+				5F6C085677B0ABB7697723B7 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		879D0D95D5E58A42C9D6CFB9 /* Delete */ = {
+			isa = PBXGroup;
+			children = (
+				C19A2D77A68A95DE0902A5F3 /* DeleteDialog.swift */,
+				F88161B0CC8F9DDE3EB67239 /* DeleteDialog.xib */,
+			);
+			path = Delete;
+			sourceTree = "<group>";
+		};
+		8CBEBD73F3372A1C56243CA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08EBA498C422D82D0B103D57 /* Pods-ToDoApp.debug.xcconfig */,
+				75E238EE30A4A9F432AC4A02 /* Pods-ToDoApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		A3BE8DBA8C4431A9592E8745 /* Products */ = {
@@ -92,6 +411,120 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B78E045A7B4BF1F27B33A7C6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E8A08CF36002434F110DE9FB /* BlurView */,
+				D11A9CFA841BA5EA56563D80 /* CustomAnimation */,
+				4A2A7E92E58240EEC68CF9D8 /* Dialog */,
+				E890E4EA3111878BE63173B0 /* Extensions */,
+				C96FC1C070B471025EC45BFF /* Helper */,
+				4A2DF4C01E9909F9378DDE33 /* LazyLoadingImage */,
+				6DF43082E8820FC0D362C49A /* Logging */,
+				5E4A1F54177A2C26EBD1FDA7 /* Manager */,
+				6EF61919805EB843BFFF673F /* Realm */,
+				5FCAB9B544F43F4BAF093E0D /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C96FC1C070B471025EC45BFF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				08AA267EFC63DC3C888FF6E3 /* AlbumHelper.swift */,
+				84895B8D1AE740BBE55EB09C /* AnimationableButton.swift */,
+				B25326A3823FF4BB25E3C7A9 /* EmptiableViewModel.swift */,
+				DF0E5A1B8B87E3BC159BA092 /* NotificationBannerView.swift */,
+				055E434E0BC1CC6A6E3223A9 /* NotificationManager.swift */,
+				D41054CFC2EE7F845085C3C3 /* PermissionHelper.swift */,
+				7F473F743E3D11A2866E96E3 /* PreviewCameraView.swift */,
+				51B63A4E66DD4570A1CB02AE /* Validator.swift */,
+				1D82F551BFE9B5E089C3C690 /* VideoPlaySession.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CAE2CBC920A55311061C8CD5 /* CalenderPickerDialog */ = {
+			isa = PBXGroup;
+			children = (
+				ED72D38A869B600992EA0BB5 /* CalendarDateCollectionViewCell.swift */,
+				9E34D20B7D8A78BCF8034FA7 /* CalendarPickerFooterView.swift */,
+				70285ED5242BE2E26FDD85B6 /* CalendarPickerHeaderView.swift */,
+				829A0E99D0195145B782E4B8 /* CalenderPickerDialog.swift */,
+				1F7A70913E796DAF75022C66 /* Models */,
+			);
+			path = CalenderPickerDialog;
+			sourceTree = "<group>";
+		};
+		D11A9CFA841BA5EA56563D80 /* CustomAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E81D2D738647927A7D83E00E /* ScrollBottomAnimation.swift */,
+				B7A180890891A1460E7415E9 /* ScrollLeftAnimation.swift */,
+			);
+			path = CustomAnimation;
+			sourceTree = "<group>";
+		};
+		E890E4EA3111878BE63173B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				721A563C47BB5BDE02531854 /* ArrayExtensions.swift */,
+				BB6CDE703CD4F141E3CD2C7C /* AVAssetExtension.swift */,
+				951FACBF0182BC417F8E1869 /* AVAudioFileExtensions.swift */,
+				C635CDB9598CF575283C8F4C /* AVAudioPlayerNodeExtensions.swift */,
+				5FB24CA45937EE825A4CDE66 /* AVAudioSessionExtensions.swift */,
+				9CDE657115701661548D9AA6 /* AVMutableCompositionExtensions.swift */,
+				9396E5B7E5BA7AA6A0F41455 /* AVPlayerExtensions.swift */,
+				CB616A5D3E076F548C97B319 /* BezierPathExtensions.swift */,
+				8A84878E0D38A0CC30ABA1F7 /* BundleExtensions.swift */,
+				BD1CBAEC8AE6B5791EAB9CFD /* CalendarExtensions.swift */,
+				537D810CC1D175E60EA86170 /* CGAffineTransformExtension.swift */,
+				825615F80CB7FC0EBF4172A2 /* CGAffineTransformExtensions.swift */,
+				30B7184A0B7E1EBE3C7F74FF /* CGFloatExtensions.swift */,
+				DDEA31504E9B45833225C1F8 /* CGPointExtensions.swift */,
+				CDCB5401B6D5171B77F7CB8F /* CGRectExtensions.swift */,
+				3256605313A56B028043E400 /* CGSizeExtensions.swift */,
+				EC923AC146482681403169ED /* CIImageExtensions.swift */,
+				E207213C0F982361BC452219 /* CLPlacemarkExtensions.swift */,
+				906D79CEBE0DEC3B6F8EFD0D /* CMTimeExtensions.swift */,
+				169D32A6CFE16DC15E873606 /* CollectionViewExtensions.swift */,
+				BE829A0B9A066AEB43589809 /* ColorExtensions.swift */,
+				39B87EF33489F5063DC4ED7E /* DateExtensions.swift */,
+				83CE94A6648BE8772B7A631F /* DeviceExtensions.swift */,
+				C62C0409EBC2D09734375C0B /* DictionaryExtension.swift */,
+				2AD7C3E939A628150742FE19 /* DoubleExtensions.swift */,
+				F789D4169A6C63EFB8ACE8F0 /* FileManagerExtensions.swift */,
+				6057EDF992279DD52BD7ADD2 /* FloatExtensions.swift */,
+				6149A855443943C19A96D5F6 /* FontExtensions.swift */,
+				1BDC89E57B05ADEABF8DDF8F /* IntExtensions.swift */,
+				5A32BCBE5DA5F8C1FA158CB0 /* NotificationName.swift */,
+				E507658A6686E980D71F0FA3 /* PHAssetExtension.swift */,
+				FBCF491C804692AB3D2E32D1 /* SequenceExtensions.swift */,
+				9DE0BE15D19F2F7D2A247DEC /* String+Mime.swift */,
+				5554ECF68A1DD9427AEF12B4 /* StringExtensions.swift */,
+				4117E55BEBD96377E71A73D4 /* TableViewExtensions.swift */,
+				2697F6324A37E9D52E1571F9 /* TextViewExtension.swift */,
+				D59A81137819973F7982F236 /* TimeIntervalExtensions.swift */,
+				281638612A3AC3FD19A8AEA7 /* UIApplicationExtensions.swift */,
+				78403EA044D8D3E7A9F144CF /* UIImageExtensions.swift */,
+				2EBFC1834C34941875FAA7EA /* UIImageViewExtensions.swift */,
+				0CFEB59258504785EF74FCC3 /* UIViewControllerExtensions.swift */,
+				25153F1F8F7566EFA5B9A097 /* UIViewExtensions.swift */,
+				9C13C717C2BC09FDD83978E0 /* URLExtensions.swift */,
+				3DFBB7E59DF5E875ACF345E1 /* URLRequestExtensions.swift */,
+				36DAB1929BF34DEE3685CC03 /* UserDefaultExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E8A08CF36002434F110DE9FB /* BlurView */ = {
+			isa = PBXGroup;
+			children = (
+				848BDC37D76815AB668577F2 /* BlurView.swift */,
+			);
+			path = BlurView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,10 +532,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D28A0C60896361EFEF3C372B /* Build configuration list for PBXNativeTarget "ToDoApp" */;
 			buildPhases = (
-				75B94CB9CCB871D8263BE8F4 /* [CP] Check Pods Manifest.lock */,
+				4A4481D036678A6A6BD466AA /* [CP] Check Pods Manifest.lock */,
 				EB5A6DA8997E99A7EAC4C6B5 /* Sources */,
 				9DD1B102EEA7A67B35499648 /* Resources */,
-				C2907E2F5DD0B6CAC63A7AC1 /* Frameworks */,
+				6777A1BC660E3AA8B9BAF237 /* Frameworks */,
+				E7AD16029F9CDDB948125437 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -150,15 +584,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				72D0D39AA4C6B83EAD4F20A2 /* Assets.xcassets in Resources */,
+				995594D92DB2025F9765D459 /* DeleteDialog.xib in Resources */,
 				E2A637A2392FFE409A9DEB41 /* LaunchScreen.storyboard in Resources */,
 				FC2766D62955762807EA547C /* Main.storyboard in Resources */,
+				30AE5A3F9C5A6B37B88F06A5 /* SelectMoneyMonthCell.xib in Resources */,
+				6FDA1E616DA8C7EC4632A81C /* SelectMoneyMonthDialog.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		75B94CB9CCB871D8263BE8F4 /* [CP] Check Pods Manifest.lock */ = {
+		4A4481D036678A6A6BD466AA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -180,6 +617,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E7AD16029F9CDDB948125437 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoApp/Pods-ToDoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDoApp/Pods-ToDoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDoApp/Pods-ToDoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -187,9 +641,108 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9DBFD8C17FC486F1A75672 /* AVAssetExtension.swift in Sources */,
+				62EA75E6E08A597B34DC7D11 /* AVAudioFileExtensions.swift in Sources */,
+				092BBBB58E276D9917FCBDCC /* AVAudioPlayerNodeExtensions.swift in Sources */,
+				9FE34BA25FBA6A33F56D2BBD /* AVAudioSessionExtensions.swift in Sources */,
+				EEE007FF2A071470BAC8F059 /* AVMutableCompositionExtensions.swift in Sources */,
+				98C8CAC0820A074448AE1780 /* AVPlayerExtensions.swift in Sources */,
+				73F3AFB844B55A55020E93AC /* AlbumHelper.swift in Sources */,
+				E20F07354F714CFA8670DE7E /* AnimationableButton.swift in Sources */,
 				1F9EDC98A3708C019E9B01CC /* AppDelegate.swift in Sources */,
+				C165501DA4DA9022BF611B17 /* AppManager.swift in Sources */,
+				98FBB3F703276707C6C72D33 /* ArrayExtensions.swift in Sources */,
+				672F166F102E710CC583F36B /* AudioPlayerManager.swift in Sources */,
+				53774B64B8A4ED6A89535E06 /* BaseNavigationController.swift in Sources */,
+				B72DB59F63AF0A2B7BEA50F1 /* BaseViewController.swift in Sources */,
+				C8871893533980E6E0372E18 /* BaseViewModel.swift in Sources */,
+				8B0728BAF935EC23925D2A0F /* BezierPathExtensions.swift in Sources */,
+				417246C2AA4CF771BB03BDC9 /* BlurView.swift in Sources */,
+				B170718008482E47CA746111 /* BundleExtensions.swift in Sources */,
+				1C8401FEDB5D446DB45FB5E0 /* CGAffineTransformExtension.swift in Sources */,
+				A0894AFA5E126B77D9B7E35C /* CGAffineTransformExtensions.swift in Sources */,
+				1DE20253C2D5DC263A645AA9 /* CGFloatExtensions.swift in Sources */,
+				DF81D4B6EEF2DCBA50C189AF /* CGPointExtensions.swift in Sources */,
+				6D0DD5960328AEEFD5BB7FA8 /* CGRectExtensions.swift in Sources */,
+				A6624857969FF23A64A1B6EC /* CGSizeExtensions.swift in Sources */,
+				FBB9A31BDC132FE4154E3544 /* CIImageExtensions.swift in Sources */,
+				863DDD5A25A1405C5F0C73B8 /* CLPlacemarkExtensions.swift in Sources */,
+				05C6516D15B2719115E7E2B9 /* CMTimeExtensions.swift in Sources */,
+				DA960098935C0717C609EB7B /* CalendarDateCollectionViewCell.swift in Sources */,
+				BA0275BC0BC7984F85217FFE /* CalendarExtensions.swift in Sources */,
+				6DDFD6DF9970AAEB3279BF80 /* CalendarPickerFooterView.swift in Sources */,
+				098626E2AA9A4E064E994287 /* CalendarPickerHeaderView.swift in Sources */,
+				B094124A6406BF3C6436FD7A /* CalenderPickerDialog.swift in Sources */,
+				4689D22417334AB03C37E5D2 /* CollectionViewExtensions.swift in Sources */,
+				B4E1DD427E48DF23B90DBEBB /* ColorExtensions.swift in Sources */,
+				102570821E24C40473ED8B84 /* Coordinator.swift in Sources */,
+				1D514FF2B10BA4511326E493 /* CrashlyticsLogEngine.swift in Sources */,
+				6A9742812CE37D81D25F89B4 /* DashedLineButton.swift in Sources */,
+				3CBDA4216F5EF4C1B60D82D3 /* DateExtensions.swift in Sources */,
+				A25A91A2A500355D83A71AE4 /* Day.swift in Sources */,
+				B6AD00E44CA4F55FC3C57794 /* DeleteDialog.swift in Sources */,
+				F7322305CFF9EAF636F5F8C5 /* DeviceExtensions.swift in Sources */,
+				09E438A5CD6386A6C5AA927B /* DictionaryExtension.swift in Sources */,
+				F2C004D8E4985F64495E0AC0 /* DoubleExtensions.swift in Sources */,
+				41BBE51CF86299B292182E06 /* EmbededCoordinator.swift in Sources */,
+				86666A003027CB40573ED89D /* EmptiableViewModel.swift in Sources */,
+				EA33359DC7A483967770D662 /* ExtendedInteractionView.swift in Sources */,
+				AF83EAF45A18984C297D7155 /* ExtensibleTouchView.swift in Sources */,
+				B554B2E68D364772FF97651E /* FileManagerExtensions.swift in Sources */,
+				51F492CA1D1C642521D84D2E /* FloatExtensions.swift in Sources */,
+				FC50E292A4771D8EB3EF53C0 /* FontExtensions.swift in Sources */,
+				B8AC0FE84D526083B9AF602F /* HightlightableButton.swift in Sources */,
+				E43CAA1C740EE9FC43E3D4E8 /* IntExtensions.swift in Sources */,
+				C58C5B1D8F69F04831CC3F6A /* LazyLoadingImage.swift in Sources */,
+				16CDA38DE165DF6AC9E94822 /* MonitorNetwork.swift in Sources */,
+				6D1CC06003BD57DA8C83435A /* MonthMetadata.swift in Sources */,
+				EF33AB744AC77498F5B435B0 /* NavigationBasedCoordinator.swift in Sources */,
+				952B0A9008F664636D342344 /* NotificationBannerView.swift in Sources */,
+				F06CC1D54EFBA03FFED6DBFD /* NotificationManager.swift in Sources */,
+				C36D0D215D9CB5DC88E2FE68 /* NotificationName.swift in Sources */,
+				5A17CF7C34085E5E8DB01F7A /* OverlayWindow.swift in Sources */,
+				25A264120055D17B963E2F6A /* PHAssetExtension.swift in Sources */,
+				2E675CB057255893B5AEC33E /* PermissionHelper.swift in Sources */,
+				35B9CC3EBDDEA053F65EAEDD /* PhotoGalleryManager.swift in Sources */,
+				F5B475883225404674A8557C /* PhotoLibraryObserver.swift in Sources */,
+				594D4FA5DCD89261DE419D3E /* PlayerManager.swift in Sources */,
+				D2F65A5E566489CD49320F5E /* PlayerView.swift in Sources */,
+				FE1903D7B99B74799370D656 /* PresentedCoordinator.swift in Sources */,
+				5C048FFA7E6ED85984E14817 /* PreviewCameraView.swift in Sources */,
+				6CF1C79AF1355D99CB075088 /* RealmDao.swift in Sources */,
+				D0E3E0D4AE866C8C8E246F8C /* RealmManager.swift in Sources */,
+				2C51F3C376D7B3E7C6389D61 /* RoundedTextField.swift in Sources */,
+				D04C9941B3BDDC4B78C44D59 /* SLSwitch.swift in Sources */,
 				06C453391DBB7618F3BE597A /* SceneDelegate.swift in Sources */,
+				58C689205A45EE6C35CA22B2 /* ScrollBottomAnimation.swift in Sources */,
+				5516D96D81CFD992F9F3938B /* ScrollLeftAnimation.swift in Sources */,
+				0D22826C2684795B298E676F /* SelectMoneyMonthCell.swift in Sources */,
+				A389E2029157B09474DB8E58 /* SelectMoneyMonthDialog.swift in Sources */,
+				CF1B95A7BDDDDE63E3BDF241 /* SequenceExtensions.swift in Sources */,
+				E7E997FDE9CE6C89AE020B7B /* SkippableInteractionView.swift in Sources */,
+				8A298DEE17FACD3FADBEB883 /* String+Mime.swift in Sources */,
+				99942A2238935CD2E798EB8B /* StringExtensions.swift in Sources */,
+				5E5AE0E35EE20E0A901046AD /* Switch.swift in Sources */,
+				6935C9ED68B5EFE2A4EB9484 /* TableViewExtensions.swift in Sources */,
+				16D2F2C5432FDD9C5FDC4261 /* TapableView.swift in Sources */,
+				9909964CC21B50CAC08A8BB8 /* TextViewExtension.swift in Sources */,
+				AC9DC221CDCD130CD0282D52 /* TimeIntervalExtensions.swift in Sources */,
+				D6FF153BD2282F69B7AC840D /* TriangleView.swift in Sources */,
+				1DF597670C42768A7A8A0004 /* TwoStateButton.swift in Sources */,
+				5DD2B1C4748B0F93AF68B509 /* TwoStateImageView.swift in Sources */,
+				60B0191459E8F83E1A964267 /* UIApplicationExtensions.swift in Sources */,
+				540B130A256A23300AEF1383 /* UIImageExtensions.swift in Sources */,
+				F7DF245A05FA05497D148E76 /* UIImageViewExtensions.swift in Sources */,
+				07BA794BE78C6D9DECCE5DA7 /* UIViewControllerExtensions.swift in Sources */,
+				CEF380E7929E809E3EC3C5F6 /* UIViewExtensions.swift in Sources */,
+				A6436706BD4A55494E1A70F9 /* URLExtensions.swift in Sources */,
+				3CEFDA28DAD4EB60ADE66560 /* URLRequestExtensions.swift in Sources */,
+				D610154DD00A839D57F8553D /* UserDataRepository.swift in Sources */,
+				D955CBE6A099BA08BF540AD5 /* UserDefaultExtensions.swift in Sources */,
+				B8861B94E1A42F515D2B1A16 /* Validator.swift in Sources */,
+				C8937931C96ABA342F98676E /* VideoPlaySession.swift in Sources */,
 				6CA8B027DE615CD9181CC58E /* ViewController.swift in Sources */,
+				90F76E10117375480D6251A6 /* WeatherManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +825,7 @@
 		};
 		2A418956021E79D2D0814DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D0A43346D26D1C62250EFA2 /* Pods-ToDoApp.debug.xcconfig */;
+			baseConfigurationReference = 08EBA498C422D82D0B103D57 /* Pods-ToDoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -355,7 +908,7 @@
 		};
 		C64C03E9BD4339DBB993360B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B84CA1F3460A29B916E23F4E /* Pods-ToDoApp.release.xcconfig */;
+			baseConfigurationReference = 75E238EE30A4A9F432AC4A02 /* Pods-ToDoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

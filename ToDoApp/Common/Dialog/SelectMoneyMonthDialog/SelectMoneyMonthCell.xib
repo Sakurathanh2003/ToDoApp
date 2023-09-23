@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Nunito-Regular.ttf">
+            <string>Nunito-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SelectMoneyMonthCell" customModule="MoneyManager" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="370" height="53"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="370" height="53"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Month" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIK-88-W9M">
+                        <rect key="frame" x="10" y="16.333333333333329" width="350" height="20.666666666666671"/>
+                        <fontDescription key="fontDescription" name="Nunito-Regular" family="Nunito" pointSize="15"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XGg-e4-kSw">
+                        <rect key="frame" x="0.0" y="52" width="370" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="zza-yw-yom"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="qIK-88-W9M" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="656-3N-bcY"/>
+                <constraint firstItem="XGg-e4-kSw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7RX-8S-0Dq"/>
+                <constraint firstAttribute="trailing" secondItem="XGg-e4-kSw" secondAttribute="trailing" id="NJy-gu-h1u"/>
+                <constraint firstItem="qIK-88-W9M" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="OMX-zh-uvG"/>
+                <constraint firstAttribute="bottom" secondItem="XGg-e4-kSw" secondAttribute="bottom" id="QIz-eW-mrm"/>
+                <constraint firstAttribute="trailing" secondItem="qIK-88-W9M" secondAttribute="trailing" constant="10" id="RPE-i8-wMG"/>
+            </constraints>
+            <size key="customSize" width="370" height="53"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="15"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="monthLabel" destination="qIK-88-W9M" id="bNa-Yz-lri"/>
+            </connections>
+            <point key="canvasLocation" x="335.87786259541986" y="20.774647887323944"/>
+        </collectionViewCell>
+    </objects>
+</document>
